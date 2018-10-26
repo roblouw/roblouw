@@ -73,7 +73,7 @@ nav a:active {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 50%;
+  min-height: 100%;
 }
 
 .main.parallax-1 {
