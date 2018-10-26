@@ -68,8 +68,8 @@ nav a:active {
 }
 
 .main.parallax {
-  min-height: 30%;
-  background-position: 40% 40%;
+  height: 30rem;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -253,6 +253,9 @@ p.disclaimer {
   body {
     font-size: 14px;
     font-weight: 300;
+  }
+  .main.parallax-1 {
+    background-image: url(../images/header-mobile.png);
   }
   .supporting img, img.left, img.right, .technical {
     width: 100%;
