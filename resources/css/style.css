@@ -253,6 +253,7 @@ p.disclaimer {
   html,
   body {
     font-size: 14px;
+    font-weight: 300;
   }
   .supporting img, img.left, img.right, p.technical {
     width: 100%;
