@@ -9,7 +9,7 @@ body {
   letter-spacing: 0.07rem;
   margin: 0;
   background-color: #111;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 a {
@@ -38,6 +38,7 @@ h1 {
 
 h1.heading {
   font-size: 3rem;
+  font-weight: normal;
   padding: 1rem 0;
   line-height: 3rem;
   margin: 1rem auto;
@@ -88,14 +89,14 @@ footer .container {
 .copyright {
   flex-basis: 20rem;
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
   margin: 0;
 }
 
 p.disclaimer {
   font-size: 0.8rem;
   line-height: 1.2rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media only screen and (max-width:834px) {
