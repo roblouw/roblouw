@@ -1,6 +1,3 @@
-/* Version 1.0
-CSS lovingly and personally hand-coded by Robin Louw :) */
-
 html,
 body {
   font-family: "Bio-Sans", helvetica, arial, sans-serif;
@@ -9,13 +6,13 @@ body {
   letter-spacing: 0.07rem;
   margin: 0;
   background-color: #111;
-  color: rgba(255, 255, 255, 0.9);
+  color: #999;
 }
 
 a {
   text-decoration: none;
   font-size: inherit;
-  color: #0089FF;
+  color: #FFF;
 }
 
 .container {
@@ -34,6 +31,8 @@ a {
 
 h1 {
   font-family: "Bebas-Kai", helvetica, arial, sans-serif;
+  text-align: center;
+  color: #FFF;
 }
 
 h1.heading {
@@ -44,17 +43,24 @@ h1.heading {
   margin: 1rem auto;
 }
 
+.iframe {
+  margin: auto;
+}
+
 .introduction {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-
+  
 .introduction p {
   padding: 0;
   margin: 0.5rem 0;
   font-size: 1.5rem;
   line-height: 2rem;
+  justify-content: center;
 }
+
 
 .description {
   display: flex;
@@ -82,21 +88,23 @@ footer {
 
 footer .container {
   display: flex;
-  align-items: center;
-  justify-content: left;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .copyright {
   flex-basis: 20rem;
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(55, 55, 55);
   margin: 0;
+  text-align: center;
 }
 
 p.disclaimer {
   font-size: 0.8rem;
   line-height: 1.2rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(55, 55, 55);
+  text-align: center;
 }
 
 @media only screen and (max-width:834px) {
@@ -111,7 +119,6 @@ p.disclaimer {
     padding: 2rem;
   }
 
-  .introduction,
   .description {
     display: flex !important;
     flex-wrap: wrap !important;
